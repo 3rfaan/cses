@@ -5,11 +5,11 @@ fn main() {
         .parse()
         .unwrap();
 
-    print!("{}", inp);
+    print!("{inp}");
     while inp > 1 {
-        if inp % 2 == 0 { inp /= 2; } 
+        if inp % 2 == 0 { inp /= 2; }
         else { inp = inp * 3 + 1; }
-        print!(" {}", inp);
+        print!(" {inp}");
     }
     println!();
 }

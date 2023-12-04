@@ -4,7 +4,7 @@ In this repository you'll find my solutions to the [CSES Problem Set](https://cs
 
 | No. | Exercise              | Doc                                  | Code                                        |
 | --- | --------------------- | ------------------------------------ | ------------------------------------------- |
-| 1   | Weird Algorithm       | n/a                                  | [📜](./src/bin/01_weird_algorithm.rs)       |
+| 1   | Weird Algorithm       | [📝](./src/weird_algorithm.md)       | [📜](./src/bin/01_weird_algorithm.rs)       |
 | 2   | Missing Number        | n/a                                  | [📜](./src/bin/02_missing_number.rs)        |
 | 3   | Repetitions           | n/a                                  | [📜](./src/bin/03_repetitions.rs)           |
 | 4   | Increasing Array      | n/a                                  | [📜](./src/bin/04_increasing_array.rs)      |
