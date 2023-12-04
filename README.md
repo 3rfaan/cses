@@ -7,8 +7,8 @@ In this repository you'll find my solutions to the [CSES Problem Set](https://cs
 | 1   | Weird Algorithm       | [📝](./src/weird_algorithm.md)       | [📜](./src/bin/01_weird_algorithm.rs)       |
 | 2   | Missing Number        | [📝](./src/missing_number.md)        | [📜](./src/bin/02_missing_number.rs)        |
 | 3   | Repetitions           | [📝](./src/repetitions.md)           | [📜](./src/bin/03_repetitions.rs)           |
-| 4   | Increasing Array      | n/a                                  | [📜](./src/bin/04_increasing_array.rs)      |
-| 5   | Permutations          | n/a                                  | [📜](./src/bin/05_permutations.rs)          |
+| 4   | Increasing Array      | [📝](./src/increasing_array.md)      | [📜](./src/bin/04_increasing_array.rs)      |
+| 5   | Permutations          | [📝](./src/permutations.md)          | [📜](./src/bin/05_permutations.rs)          |
 | 6   | Number Spiral         | [📝](./src/number_spiral.md)         | [📜](./src/bin/06_number_spiral.rs)         |
 | 7   | Two Knights           | [📝](./src/two_knights.md)           | [📜](./src/bin/07_two_knights.rs)           |
 | 8   | Two Sets              | [📝](./src/two_sets.md)              | [📜](./src/bin/08_two_sets.rs)              |
