@@ -57,7 +57,7 @@ That's all! We have successfully converted a binary bit string to a Gray code bi
 
 ## Gray Code Conversion for each Power of $n$
 
-As stated in the assessment we have to print $2^n$ lines of Gray code, where $n$ is the input given. So for example $n = 2$, we have to print out $2^2 = 4$ lines of Gray code. We can achieve this by iterating through a range from $0, 1, ..., n$, where we convert each integer of the range in each iteration to Gray code directly.
+As stated in the assessment we have to print $2^n$ lines of Gray code, where $n$ is the input given. So for example $n = 2$, we have to print out $2^2 = 4$ lines of Gray code. We can achieve this by iterating through a range from $0, 1, ..., 2^n$, where we convert each integer of the range in each iteration to Gray code directly.
 
 ## Code
 
