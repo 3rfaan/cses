@@ -2,6 +2,8 @@
 
 In this repository you'll find my solutions to the [CSES Problem Set](https://cses.fi/problemset/).
 
+## Introductory Problems
+
 | No. | Exercise              | Doc                                  | Code                                        |
 | --- | --------------------- | ------------------------------------ | ------------------------------------------- |
 | 1   | Weird Algorithm       | [📝](./src/weird_algorithm.md)       | [📜](./src/bin/01_weird_algorithm.rs)       |
