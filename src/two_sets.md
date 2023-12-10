@@ -39,7 +39,7 @@ In the end we have two arrays containing integers which add up to the same sum.
 In Rust 🦀 code:
 
 ```rust
-``fn main() {
+fn main() {
     let n: u64 = std::io::read_to_string(std::io::stdin())
         .unwrap()
         .trim()
@@ -50,16 +50,17 @@ In Rust 🦀 code:
     let mut sum = n * (n + 1) / 2;
 
     if sum % 2 != 0 { println!("NO"); return; }
-    sum /= 2;
+    else { println!("YES"); sum /= 2; }
 
     for i in (1..=n).rev() {
         if i <= sum { sum -= i; a.push(i); }
         else { b.push(i) }
     }
-    println!("YES\n{}", a.len());
+
+    println!("{}", a.len());
     a.iter().for_each(|e| print!("{e} "));
     println!("\n{}", b.len());
     b.iter().for_each(|e| print!("{e} "));
     println!();
-}`
+}
 ```
