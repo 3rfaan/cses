@@ -1,21 +1,25 @@
 fn main() {
-    let inp: Vec<u64> = std::io::read_to_string(std::io::stdin())
+    let inp: Vec<usize> = std::io::read_to_string(std::io::stdin())
         .unwrap()
         .lines()
         .skip(1)
-        .map(|s| s.parse().unwrap())
+        .map(|n| n.parse().unwrap())
         .collect();
 
-    let (mut length, mut first) = (1, 1);
-
     for mut k in inp {
-        while k > 9 * first * length {
-            k -= 9 * first * length;
-            length += 1;
-            first *= 10;
-        }
-        let (q, r) = (k - 1 / length, k - 1 % length);
+        let (mut block, mut dig) = (1, 1);
 
-        println!("{}",)
+        while k > 9 * block * dig {
+            k -= 9 * block * dig;
+
+            block *= 10;
+            dig += 1;
+        }
+
+        let (quot, rem) = ((k - 1) / dig, (k - 1) % dig);
+
+        if let Some(d) = (block + quot).to_string().chars().nth(rem) {
+            println!("{d}");
+        }
     }
 }

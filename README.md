@@ -23,5 +23,5 @@ In this repository you'll find my solutions to the [CSES Problem Set](https://cs
 | 15  | Creating Strings      | [📝](./src/creating_strings.md)      | [📜](./src/bin/15_creating_strings.rs)      |
 | 16  | Apple Division        | [📝](./src/apple_division.md)        | [📜](./src/bin/16_apple_division.rs)        |
 | 17  | Chessboard and Queens | [📝](./src/chessboard_and_queens.md) | [📜](./src/bin/17_chessboard_and_queens.rs) |
-| 18  | Digit Queries         | n/a                                  | n/a                                         |
+| 18  | Digit Queries         | [📝](./src/digit_queries.md)         | [📜](./src/bin/18_digit_queries.rs)         |
 | 19  | Grid Paths            | n/a                                  | n/a                                         |
