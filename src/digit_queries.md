@@ -36,15 +36,15 @@ After exiting the loop we decremented $k$ by the amount of digits of each block 
 
 Then we begin to build the string of the number at index $k$. Because we started at index $1$ we subtract $k - 1$. Then we divide $k - 1$ by `dig`.
 
-$$\frac{k - 1}{dig}$$
+$$q = \frac{k - 1}{dig}$$
 
 This will give us the offset in the appropriate block.
 
 Then we need to calculate the index in the number at index $k$. We achieve this by again subtracting $1$ from $k$ and then taking the remainder:
 
-$$(k - 1) \mod dig$$
+$$r = (k - 1) \mod dig$$
 
-Then we build the string by adding the quotient (offset) to `block`. The last step will be to index into the string at position of the remainder.
+Then we build the string by adding $q$ (offset) to `block`. The last step will be to index into the string at position of $r$ (remainder).
 
 ## Code
 
