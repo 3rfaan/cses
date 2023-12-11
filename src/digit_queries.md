@@ -9,7 +9,7 @@ In an infinite string consisting of positive integers in increasing order we hav
 
 ## Digit Blocks
 
-Building the whole string and iterating over it would take far too long when we consider that $k \le 10^18$.
+Building the whole string and iterating over it would take far too long when we consider that $k \le 10^{18}$.
 
 But we can observe that we could split our range in various blocks according to the number of digits:
 
@@ -26,7 +26,7 @@ Also the amount of digits in each block is calculated by $9 * 10^n * d$ where $d
 
 So in a `while` loop we conduct these steps:
 
-1. Check if $k$ is bigger than the number of digits in the current block $k > 9 * 10^n * d$
+1. Check if $k$ is bigger than the amount of digits in the current block $k > 9 * 10^n * d$
 2. Decrement $k$ by the amount of digits in the current block `k = k - 9 * 10^n * d`
 3. We multiply `block` by $10$ and increment `dig` by $1$. `block` represents the current block we are in ($1, 10, 100, 1000, ...$) and `dig` represents the number of digits in the current block ($1, 2, 3, ...$).
 
